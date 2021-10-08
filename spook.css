@@ -38,6 +38,7 @@ h2 {
 .second {
     font-size: 5rem;
     text-shadow: 0 0 20px red, 0px 0px 13px red;
+    min-width: 75px;
 }
 
 .waiting{
