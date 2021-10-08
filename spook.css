@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    font-family: "chiller", sans-serif;
+
+}
+
+h2 {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.spook {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #ff8001;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 5rem;
+    text-shadow: 0 0 20px red, 0px 0px 13px red;
+}
+
+.waiting{
+    height: 35vh;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'chiller';
+    src: url(styles/CHILLER.TTF);
+    font-style: normal;
+    font-weight: 100;
+}
