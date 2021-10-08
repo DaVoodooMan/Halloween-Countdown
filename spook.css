@@ -44,6 +44,14 @@ h2 {
     height: 35vh;
 }
 
+.spider {
+    width: 15vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 20%;
+}
+
 @font-face {
     font-family: 'chiller';
     src: url(styles/CHILLER.TTF);
