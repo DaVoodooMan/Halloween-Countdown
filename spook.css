@@ -22,6 +22,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     color: #ff8001;
+    user-select: none;
+    pointer-events: none;
 }
 
 .countdown {
@@ -40,7 +42,6 @@ h2 {
 
 .waiting{
     height: 35vh;
-    user-select: none;
 }
 
 @font-face {
