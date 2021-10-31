@@ -41,8 +41,40 @@ h2 {
     min-width: 75px;
 }
 
+/*@keyframes Candle_Flicker {
+    0%   { filter:brightness(1); }
+    25%   { filter:brightness(1.5); }
+    75%   { filter:brightness(2) hue-rotate(4deg); }
+    100% { filter:brightness(1); }
+  
+}*/
+
+@keyframes Candle_Flicker{
+    0% { filter:brightness(0.5);}
+    5% { filter:brightness(0.5)}
+    15% { filter: brightness(1.5)}
+    18% {filter:brightness(0.5);} 
+    20% { filter:brightness(0.5)}
+    25% { filter:brightness(1.5);}
+    30% { filter:brightness(0.5)}
+    35% { filter:brightness(1);}
+    40% { filter:brightness(1.4);}
+    45% { filter:brightness(0.5);}
+    50% { filter:brightness(0.5);}
+    55% { filter:brightness(0.5);}
+    60% { filter:brightness(1.2);}
+    75% { filter:brightness(1);}
+    88% { filter:brightness(0.5);} 
+    95% { filter: brightness(1);}
+    100% { filter:brightness(0.5);}
+
+}
+
+
 .waiting{
     height: 35vh;
+    filter:brightness(1);
+    animation:Candle_Flicker 1950ms infinite;
 }
 
 .spider {

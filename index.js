@@ -10,7 +10,7 @@ const countdown = () => {
     const hour = minute * 60
     const day = hour * 24
 
-    //cacualte the shit
+    //caculate the shit
     const textDay = Math.floor(gap / day)
     const textHour = Math.floor((gap % day) / hour);
     const textMinute = Math.floor((gap % hour) / minute);
