@@ -1,7 +1,10 @@
 const countdown = () => {
-    const countDate = new Date("October 31, 2021 00:00:00").getTime()
-    const now = new Date().getTime();
-    const gap = countDate - now;    
+   
+    const now = new Date();
+    const isPastThisYearsHween = now.getMonth() > 9 || now.getMonth() === 9 && now.getDate() === 31;
+    const target = new Date(now.getFullYear() + isPastThisYearsHween, 9, 31);
+    const gap = target - now
+
 
 
     //How the fuck does time work?
@@ -19,13 +22,21 @@ const countdown = () => {
     document.querySelector(".day").innerText = textDay;
     document.querySelector(".hour").innerText = textHour;
     document.querySelector(".minute").innerText = textMinute;
-    document.querySelector(".second").innerText = textSeconds;
-    
+    document.querySelector(".second").innerText = textSeconds;    
+ 
 };
+
+
 countdown();
 setInterval(countdown, 1000);
 
 
+
+
+
+
+
+//chat feature? 
 
 
 
