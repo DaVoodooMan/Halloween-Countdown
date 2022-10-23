@@ -36,7 +36,7 @@ setInterval(countdown, 1000);
 
 
 
-//chat feature? 
+//chat feature? hopefully soon. updates to come.
 
 
 
