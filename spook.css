@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    
 }
 
 body {
     font-family: "chiller", sans-serif;
-
+    background-color: black;
 }
 
 h2 {
@@ -90,4 +90,19 @@ h2 {
     src: url(styles/CHILLER.TTF);
     font-style: normal;
     font-weight: 100;
+}
+
+#ChatBox{
+    position: absolute;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,1) 35%, rgba(34,169,187,1) 100%, rgba(0,95,255,1) 100%);
+    color:ghostwhite;
+    border-style: dotted;
+    bottom:0px;
+    border-radius: 15px 50px 0px 0px;
+}
+#ChatLog{
+    height:140px;
+    overflow-y: hidden;
+
 }
