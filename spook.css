@@ -92,7 +92,7 @@ h2 {
     font-weight: 100;
 }
 
-#ChatBox{
+/* #ChatBox{
     position: absolute;
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,1) 35%, rgba(34,169,187,1) 100%, rgba(0,95,255,1) 100%);
@@ -105,4 +105,4 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,56,9,1) 35%, rgba
     height:140px;
     overflow-y: hidden;
 
-}
+} */
