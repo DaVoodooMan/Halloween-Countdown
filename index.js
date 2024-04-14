@@ -38,11 +38,11 @@ setInterval(countdown, 1000);
 
 //chat feature? hopefully soon. updates to come.
 
-var socket = io();
-socket.emit('newuser', "pineapples");
-socket.on("update", function(data){
-    console.log(data);
-} )
+//var socket = io();
+//socket.emit('newuser', "pineapples");
+//socket.on("update", function(data){
+ //   console.log(data);
+//} )
 
 
 
